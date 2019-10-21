@@ -1,0 +1,21 @@
+.container {
+
+    text-align:center;
+}
+
+.box {
+    display: inline-block;
+    width:250px;
+    height:250px;
+    margin:10px;
+    background-color:#1b5e20;
+    box-shadow: -4px -4px -25px rgba(0, 0, 0, 0.5);
+    transition: background-color 2s ease-in-out;
+    transition: width 1s ease-in-out;
+}
+
+
+.box:hover {
+    background-color:#76ff03;
+    width:350px;
+}

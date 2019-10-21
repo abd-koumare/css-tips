@@ -1,0 +1,58 @@
+.item {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 4px;
+    text-align: center;
+    color: deepskyblue;
+    font-size: 25px;
+    line-height: 45px;
+  }
+  
+  .container {
+    background-color: deepskyblue;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+  }
+  
+  /*
+  flex-direction
+  
+  
+  indique la façon dont les elements devrait etre disposer dans le contenu.
+  les valeurs possibles sont: 
+  
+  row: en ligne
+  row-reverse: en ligne mais les contenus à la premiere position devient le contenu à la derniere position
+  
+  column:en colonne
+  column-reverse: même explication que row-reverse
+  
+  
+  flex-wrap
+  
+  indique la façon dont element dans le contenu devrait etre enveloppé.
+  
+  nowrap:les elements dans les conteneurs sont
+  comprimés si la taille du conteneur n'est pas assez grande.
+  
+  wrap:si les elements dans le conteneurs ont une taille superieure à celle du conteneur un retour à ligne element est effectuer automatiquement
+  
+  wrap-inverse:inverse de wrap
+  
+  justify-content
+  
+  indique la façon dont les devrait être disposé 
+  center, espace entre les elements, espace autour des elements.
+  les valeurs possibles sont:
+  
+  center
+  space-between 
+  space-around
+  space-evenly
+  
+  */
+  

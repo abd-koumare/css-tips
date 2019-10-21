@@ -1,0 +1,58 @@
+
+/* global settings */
+.box {
+
+    width:500px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* center with text-align */
+.container {
+  text-align:center;
+}
+
+.content {
+    background-color:#ad1457;
+    display: inline-block; 
+}
+
+/* margin auto method */
+
+.margin {
+    background-color:#1a237e;
+    margin: 0 auto;
+}
+
+/* flex container */
+
+.flex-container {
+    display: flex;
+    justify-content:center;
+}
+
+.flex-content {
+    background-color:#1b5e20;
+}
+
+/* tranform translate method */
+
+.transform {
+
+    background-color:#ff8f00;
+    position: absolute;
+    left:50%;
+    transform:translate(-50%,-50%);
+    margin-top:255px;
+}
+
+/* absolute method */
+
+.absolute {
+    background-color:red;
+    position:absolute;
+    left:50%;
+    margin-left:-250px;
+}

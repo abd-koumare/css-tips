@@ -1,0 +1,38 @@
+
+
+.box {
+    width:250px;
+    height:250px;
+    margin:200px;
+    background-color:#304ffe;
+    transition:transform 3s ease-in-out;
+    color:white;
+    text-align:center;
+    line-height:250px;
+    font-family:Helvetica, monospace, sans-serif;
+}
+
+
+
+/* 
+
+    linear-gradient(direction ou degre, couleur [pourcentage]) 
+    radial-gradient(direction, couleur [pourcentage])
+    exemple background-image:linear-gradient(to bottom left, 20% red, 30% blue);
+*/
+
+
+.box-1:hover {
+    background-image: linear-gradient(red, blue);
+}
+
+
+
+
+.box-2:hover {
+    background-image:radial-gradient(green , yellow);
+}
+
+.box-3:hover {
+    background-image: repeating-linear-gradient(red, red 20%, blue 20%,blue, red);
+}
